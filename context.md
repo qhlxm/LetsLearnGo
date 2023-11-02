@@ -1,7 +1,7 @@
 使用context库
 ============
 
-`context` 是 `Go` 语言标准库的一部分，用于在多个 `goroutine` 之间传递截止时间、取消信号和其他请求范围的值。它在处理超时、取消和传递额外信息至其他 `API` 时非常有用。
+`context` 是 `Go` 语言标准库的一部分，用于在多个 `goroutine` 之间传递截止时间（context.WithTimeout）、取消信号(context.WithCancel())和其他请求范围的值。它在处理超时、取消和传递额外信息至其他 `API` 时非常有用。
 
 ## 创建新项目
 
